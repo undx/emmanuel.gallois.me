@@ -1,0 +1,53 @@
+body {
+  background: url(/img/undx_bg.png) no-repeat;
+  background-size: 100%;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+div.bio {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: auto;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.0976563);
+  border: 1px solid transparent;
+  border-bottom-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  padding: 10px;
+  width: 32%;
+}
+div.bio:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.bio h1 {
+  color: #FF9D00;
+  font-weight: bold;
+}
+.bio h3 {
+  color: #F5D03D;
+  font-size: 100%;
+  font-weight: bold;
+}
+.bio p {
+  color: #ccc;
+  font-weight: bold;
+}
+footer {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+footer a {
+  margin-right: 3px;
+}
+footer a.btn{
+  font-family: monospace;
+}
